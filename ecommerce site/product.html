@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <!-- <link rel="stylesheet" href="shop.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <section id="header" class="flex align-center justify-space-between">
+        <a href="index.html"><img src="/img/logo.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar" class="flex">
+                <li class="cross"><i class="fa-solid fa-xmark"></i></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"
+                        style="color: #000000;  font-size: 24px;"></i></a></li>
+            <li><i class="fa-solid fa-bars" style=" font-size: 24px;"></i></li>
+        </div>
+    </section>
+
+    <section id="product-details" class="padding2 flex">
+        <div class="imgGallery">
+            <img src="/img/products/f1.jpg" width="100%" id="mainImg" alt="">
+            <div class="small-img-container flex justify-space-between gap1">
+                <div class="small-img"><img src="/img/products/f1.jpg" width="100%"></div>
+                <div class="small-img"><img src="/img/products/f2.jpg" width="100%"></div>
+                <div class="small-img"><img src="/img/products/f3.jpg" width="100%"></div>
+                <div class="small-img"><img src="/img/products/f4.jpg" width="100%"></div>
+            </div>
+        </div>
+        <div class="details">
+            <h4>Home/ T-Shirt</h4><br><br>
+            <h3>Men's Fashion T-Shirt</h3><br>
+            <h2>$139</h2><br>
+            <select id="size" name="size">
+                <option value="">Select Size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select><br><br>
+            <div class="flex gap1">
+                <input type="number" value="1" min="1" max="10" class="quantity">
+                <button class="addToCart">Add To Cart</button>
+            </div><br><br>
+            <h3>Product Details</h3><br>
+
+            <p style="font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, quod repellendus quibusdam rem illum quidem corporis, optio possimus quae ut, dolores enim officiis non est in nemo qui ad. Aliquid eveniet soluta, totam, id officia dolorem quaerat optio molestiae dolor minima, explicabo commodi nihil tempore et. Impedit quasi eveniet asperiores, repellendus deserunt quo? Officia saepe alias, hic ducimus veritatis adipisci voluptatibus fugit fuga esse aliquam doloribus? Dolorem, quod, voluptatibus eaque mollitia ipsa, dolores consectetur possimus quisquam ducimus architecto eligendi? Officiis quo est officia molestias blanditiis necessitatibus. Delectus totam, adipisci ducimus dignissimos eligendi, illum fuga autem dolor voluptatum libero, possimus sunt.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="txt-container">
+            <h2 class="text-align-center">Featured Products</h2>
+            <p class="text-align-center">Summer Collection New Modern Designs</p>
+        </div>
+        <div class="items-container flex justify-center">
+            <div class="item-card">
+                <img src="/img/products/f1.jpg">
+                <div class="item-description">
+                    <span style="color: #606063; font-size: 15px;">adidas</span>
+                    <h4 style="font-size: 18px;">Cartoon Astronaut T-Shirts</h4>
+                    <div class="star">⭐⭐⭐⭐⭐</div>
+                    <h3>$40</h3>
+                </div>
+                <div class="add-to-cart flex justify-center align-center"><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178;"></i></a></div>
+            </div>
+            <div class="item-card">
+                <img src="/img/products/f2.jpg">
+                <div class="item-description">
+                    <span style="color: #606063; font-size: 15px;">adidas</span>
+                    <h4 style="font-size: 18px;">Cartoon Astronaut T-Shirts</h4>
+                    <div class="star">⭐⭐⭐⭐⭐</div>
+                    <h3>$40</h3>
+                </div>
+                <div class="add-to-cart flex justify-center align-center"><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178;"></i></a></div>
+            </div>
+            <div class="item-card">
+                <img src="/img/products/f3.jpg">
+                <div class="item-description">
+                    <span style="color: #606063; font-size: 15px;">adidas</span>
+                    <h4 style="font-size: 18px;">Cartoon Astronaut T-Shirts</h4>
+                    <div class="star">⭐⭐⭐⭐⭐</div>
+                    <h3>$40</h3>
+                </div>
+                <div class="add-to-cart flex justify-center align-center"><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178;"></i></a></div>
+            </div>
+            <div class="item-card">
+                <img src="/img/products/f4.jpg">
+                <div class="item-description">
+                    <span style="color: #606063; font-size: 15px;">adidas</span>
+                    <h4 style="font-size: 18px;">Cartoon Astronaut T-Shirts</h4>
+                    <div class="star">⭐⭐⭐⭐⭐</div>
+                    <h3>$40</h3>
+                </div>
+                <div class="add-to-cart flex justify-center align-center"><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178;"></i></a></div>
+            </div>   
+        </div>
+    </section>
+
+    <section id="newsletter" class="flex justify-space-between align-center">
+        <div class="bannerTxt">
+            <h2 class="col-white">Sign Up For Newsletters</h2>
+            <p class="col-white">Get E-mail updates about our latest shop and <span class="col-orange">Special
+                    Offers</span></p>
+        </div>
+        <div class="emailEntry">
+            <input type="email" placeholder="Enter Email Address">
+            <button class="signInBtn">Sign Up</button>
+        </div>
+    </section>
+
+    <section id="footer" class="padding1 wrap">
+        <div class="col1">
+            <img src="/img/logo.png">
+
+            <h5>Contact</h5>
+            <div class="contact">
+                <p><strong>Address: </strong> 562 Wellington Road, Street 32, San Francisco</p>
+                <p><strong>Phone: </strong>+01 2222 365 /(+91) 01 2345 6789</p>
+                <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+            </div>
+
+            <h5>Follow Us</h5>
+            <div class="links flex" style="gap: 10px;">
+                <a href="#"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>  
+                <a href="#"><i class="fa-brands fa-pinterest" style="color: #000000;"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+            </div>
+        </div>
+        <div class="col2">
+            <h5>About</h5>
+            <div class="contact">
+                <a href="#"><p>About Us</p></a>
+                <a href="#"><p>Delivery Information</p></a>
+                <a href="#"><p>Privacy Policy</p></a>
+                <a href="#"><p>Terms & Conditions</p></a>
+                <a href="#"><p>Contact Us</p></a>
+            </div>
+        </div>
+        <div class="col3">
+            <h5>My Account</h5>
+            <div class="contact">
+                <a href="#"><p>Sign in</p></a>
+                <a href="#"><p>View cart</p></a>
+                <a href="#"><p>My wishlist</p></a>
+                <a href="#"><p>Track my order</p></a>
+                <a href="#"><p>Help</p></a>
+            </div>
+        </div>
+        <div class="col4">
+            <h5>Install App</h5>
+            <p>From App store Or Google Play</p>
+            <div class="payImgs">
+                <a href="#"><img src="/img/pay/app.jpg"></a>
+                <a href="#"><img src="/img/pay/play.jpg"></a>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+    </section>
+
+
+    <p class="text-align-center">©2025, Cara - Ecommerce Site</p>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

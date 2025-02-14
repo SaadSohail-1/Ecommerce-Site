@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <section id="header" class="flex align-center justify-space-between">
+        <a href="index.html"><img src="/img/logo.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar" class="flex">
+                <li class="cross"><i class="fa-solid fa-xmark"></i></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #088178;"></i></a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #000000;  font-size: 24px;"></i></a></li>
+            <li><i class="fa-solid fa-bars" style=" font-size: 24px;"></i></li>
+        </div>
+    </section>
+
+    <section id="page-header-about" class="flex justify-center align-center flex-dir-col">
+        <h2 class="col-white">#buy_now</h2>
+        <p class="col-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <section id="cart" class="padding2">
+        <table style="width: 100%; border-spacing: 0 20px;">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-regular fa-circle-xmark"></i></td>
+                    <td><img src="/img/products/f1.jpg" alt="" height="80px"></td>
+                    <td><p>Cartoon Astronaut T-Shirts</p></td>
+                    <td><p>$118.19</p></td>
+                    <td><input type="number" value="1" min="1" max="10" class="quantity"></td>
+                    <td><p>$118.19</p></td>
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-circle-xmark"></i></td>
+                    <td><img src="/img/products/f2.jpg" alt="" height="80px"></td>
+                    <td><p>Cartoon Astronaut T-Shirts</p></td>
+                    <td><p>$118.19</p></td>
+                    <td><input type="number" value="1" min="1" max="10" class="quantity"></td>
+                    <td><p>$118.19</p></td>
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-circle-xmark"></i></td>
+                    <td><img src="/img/products/f3.jpg" alt="" height="80px"></td>
+                    <td><p>Cartoon Astronaut T-Shirts</p></td>
+                    <td><p>$118.19</p></td>
+                    <td><input type="number" value="1" min="1" max="10" class="quantity"></td>
+                    <td><p>$118.19</p></td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+    </section>
+
+    <section id="cart-add" class="padding2 flex wrap">
+        <div class="apply-coupon flex flex-dir-col">
+            <div class="coupon-heading"><h3>Apply Coupon</h3></div>
+            <div class="coupon-entry flex">
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="signInBtn">Apply</button>
+            </div>
+        </div>
+        <div class="cart-totals">
+            <h3>Cart Totals</h3>
+            <table id="totals-table" style="width: 100%;">
+                <tr>
+                    <td><p>Cart Subtotal</p></td>
+                    <td><p>$335</p></td>
+                </tr>
+                <tr>
+                    <td><p>Shipping</p></td>
+                    <td><p>Free</p></td>
+                </tr>
+                <tr>
+                    <td><p>Total</p></td>
+                    <td><p>$335</p></td>
+                </tr>
+            </table>
+            <button class="checkoutBtn">Proceed To Checkout</button>
+        </div>
+    </section>
+
+    <section id="footer" class="padding1 wrap">
+        <div class="col1">
+            <img src="/img/logo.png">
+
+            <h5>Contact</h5>
+            <div class="contact">
+                <p><strong>Address: </strong> 562 Wellington Road, Street 32, San Francisco</p>
+                <p><strong>Phone: </strong>+01 2222 365 /(+91) 01 2345 6789</p>
+                <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+            </div>
+
+            <h5>Follow Us</h5>
+            <div class="links flex" style="gap: 10px;">
+                <a href="#"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>  
+                <a href="#"><i class="fa-brands fa-pinterest" style="color: #000000;"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+            </div>
+        </div>
+        <div class="col2">
+            <h5>About</h5>
+            <div class="contact">
+                <a href="#"><p>About Us</p></a>
+                <a href="#"><p>Delivery Information</p></a>
+                <a href="#"><p>Privacy Policy</p></a>
+                <a href="#"><p>Terms & Conditions</p></a>
+                <a href="#"><p>Contact Us</p></a>
+            </div>
+        </div>
+        <div class="col3">
+            <h5>My Account</h5>
+            <div class="contact">
+                <a href="#"><p>Sign in</p></a>
+                <a href="#"><p>View cart</p></a>
+                <a href="#"><p>My wishlist</p></a>
+                <a href="#"><p>Track my order</p></a>
+                <a href="#"><p>Help</p></a>
+            </div>
+        </div>
+        <div class="col4">
+            <h5>Install App</h5>
+            <p>From App store Or Google Play</p>
+            <div class="payImgs">
+                <a href="#"><img src="/img/pay/app.jpg"></a>
+                <a href="#"><img src="/img/pay/play.jpg"></a>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+    </section>
+
+    <p class="text-align-center">©2025, Cara - Ecommerce Site</p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
